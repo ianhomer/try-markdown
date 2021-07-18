@@ -2,6 +2,9 @@
   "plugins": [
     "remark-preset-lint-recommended",
     "lint-no-missing-blank-lines",
+    ["lint-no-undefined-references",{
+      "allow": [" ","x"]
+    }],
     ["lint-list-item-indent", "space"],
     ["lint-unordered-list-marker-style","consistent"]
   ],
