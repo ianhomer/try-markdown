@@ -8,11 +8,13 @@ Repository of markdown content for experimentation.
 
 ### remark
 
-    npx remark .
+    npm run lint:remark
+    npm run lint:remark:bad
 
 ### markdownlint
 
-    npx markdownlint .
+    npm run lintLmarkdownlint
+    npm run lintLmarkdownlint:bad
 
 ## Further Reading
 
