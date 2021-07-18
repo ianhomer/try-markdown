@@ -2,5 +2,9 @@
   "plugins": [
     "preset-lint-markdown-style-guide",
     ["lint-code-block-style", "consistent"]
-  ]
+  ],
+  "settings": {
+    "bullet": "-",
+    "listItemIndent": "one"
+  }
 }

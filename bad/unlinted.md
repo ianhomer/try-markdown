@@ -6,4 +6,4 @@ This content crashes the heading.
 ## Mixed lists
 
 - Item 1
-* Item 2
+- Item 2
