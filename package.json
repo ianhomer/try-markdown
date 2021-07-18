@@ -1,13 +1,14 @@
 {
   "dependencies": {
     "remark-cli": "^9.0.0",
+    "remark-lint-no-missing-blank-lines": "^2.0.1",
     "remark-preset-lint-markdown-style-guide": "^4.0.0",
     "remark-preset-lint-recommended": "^5.0.0"
   },
   "scripts": {
-    "lint:remark" : "npx remark . --ignore-pattern bad/**/*",
+    "lint:remark": "npx remark . --ignore-pattern bad/**/*",
     "lint:markdownlint": "npx markdownlint --ignore bad/**/* .",
-    "lint:remark:bad" : "npx remark bad",
+    "lint:remark:bad": "npx remark bad",
     "lint:markdownlint:bad": "npx markdownlint bad"
   }
 }

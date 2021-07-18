@@ -1,7 +1,9 @@
 {
   "plugins": [
-    "preset-lint-markdown-style-guide",
-    ["lint-code-block-style", "consistent"]
+    "remark-preset-lint-recommended",
+    ["lint-code-block-style", "consistent"],
+    "lint-no-missing-blank-lines",
+    ["lint-list-item-indent", "space"]
   ],
   "settings": {
     "bullet": "-",
